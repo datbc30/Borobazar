@@ -1,0 +1,13 @@
+@import url(./component/Header.scss);
+@import url(./theme/_variable.scss);
+@import url(./component/Footer.scss);
+@import url(./page/Account.scss);
+@import url(./page/Oders.scss);
+@import url(./component/Slider.scss);
+
+@import url(./base/_index.scss);
+
+*{
+    margin: 0;
+    padding: 0;
+}

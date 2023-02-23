@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 0.5fr 1fr;
+    
+    grid-template-areas: 
+        "header slider"
+    ;
+    height: auto;
+    padding:0 50px
+}

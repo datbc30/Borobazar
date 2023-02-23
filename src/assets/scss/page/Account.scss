@@ -1,0 +1,98 @@
+.Account-header {
+  grid-area: slider;
+  .Form-account {
+    border: 1px solid #e7ecf0;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 65px;
+    .Form-lable {
+      padding: 25px;
+      .Form-content {
+        .form-top {
+            border-bottom: 1px solid #e7ecf0;
+            margin-bottom: 30px ;
+          .form-top-fa {
+            .form-top-fa-items1 {
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              .input-top {
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid #e7ecf0;
+              }
+              label {
+                font-size: 14px;
+                font-weight: 400;
+                color: #4c4c4c;
+              }
+            }
+            .form-top-fa-items2 {
+                label {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #4c4c4c;
+                  }
+              .input-bot {
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid #e7ecf0;
+                // margin-bottom: 23px;
+              }
+            }
+          }
+        }
+        .form-bot {
+            border-bottom: 1px solid #e7ecf0;
+            margin-bottom: 30px ;
+            .form-bot-fa {
+              .form-bot-fa-items1 {
+               
+                .input-top {
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  border: 1px solid #e7ecf0;
+                }
+                label {
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: #4c4c4c;
+                }
+              }
+              .form-bot-fa-items2 {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                  label {
+                      font-size: 14px;
+                      font-weight: 400;
+                      color: #4c4c4c;
+                    }
+                .input-bot {
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  border: 1px solid #e7ecf0;
+                }
+              }
+            }
+          }
+          .form-submit{
+              margin-top: 30px;
+              display: flex;
+              justify-content: flex-end;
+              margin-bottom: 10px;
+              button{
+                padding: 14px 20px;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                background-color: #02b292;
+                font-weight: 500;
+              }
+          }
+      }
+    }
+  }
+}
